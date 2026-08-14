@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modulink"
+dynamic = ["version"]
+description = "Portable module/blueprint control runtime (logic only, UI-agnostic)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-Proprietary"
+authors = [{ name = "Edgecase" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["build==1.4.0"]
+
+[tool.setuptools.dynamic]
+version = {attr = "modulink.__version__.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["modulink*"]

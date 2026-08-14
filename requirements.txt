@@ -1,0 +1,5 @@
+# Runtime: none. ModuLink uses the Python standard library only (3.10+).
+# Host apps may pass pandas/numpy objects; those are duck-typed, not imported.
+#
+# Packaging helper used by `python3 install.py --dev` then `python -m build --wheel`.
+build==1.4.0
