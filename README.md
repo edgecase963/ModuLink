@@ -6,6 +6,7 @@ Portable **logic-only** module / blueprint / group runtime for host apps.
 - Runtime depends only on the Python 3.10+ standard library (see `requirements.txt`).
 - Install editable: `python3 install.py --dev` (or `pip install -e /path/to/ModuLink`)
 - Import: `import modulink` or `from modulink import Blueprint, SimulationModule, ...`
+- Usage (after install): see [USAGE.md](USAGE.md)
 
 ## Package layout
 
